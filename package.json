@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "cypress": "^11.2.0",
     "git-commit-msg-linter": "^4.4.0"
   }
 }
