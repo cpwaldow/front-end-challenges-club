@@ -16,7 +16,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js"
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js",
+    "prepare": "husky install",
+    "lint-staged": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run lint -- --fix"
+    ], 
+    "*.jsx": [
+      "npm run lint -- --fix"
+    ]
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +51,8 @@
     "eslint": "^8.28.0",
     "eslint-plugin-react": "^7.31.11",
     "git-commit-msg-linter": "^4.4.0",
-    "jsx-runtime": "^1.2.0"
+    "husky": "^8.0.2",
+    "jsx-runtime": "^1.2.0",
+    "lint-staged": "^13.0.4"
   }
 }
