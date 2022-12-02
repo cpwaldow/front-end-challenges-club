@@ -31,3 +31,7 @@ Após clonar o repositório rode `npm install` para instalar todas as dependenci
 Uma das dependências desse projeto é [Commit Msg Linter](https://github.com/legend80s/commit-msg-linter), caso tente fazer um commit fora do padrão, retornará erro e mostrará no terminal o que está faltando.
 
 [Formato recomendado para mensagem de commit](https://github.com/legend80s/commit-msg-linter#recommended-commit-message-format)
+
+## Deploy
+
+Esse projeto tem o deploy automático após o merge na main que ocorre na [Vercel](https://vercel.com/)
