@@ -13,3 +13,5 @@ Dependências:
 [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 
 [Cypress](https://docs.cypress.io/guides/overview/why-cypress)
+
+[Eslint](https://eslint.org/docs/latest/)
