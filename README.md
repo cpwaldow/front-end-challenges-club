@@ -16,6 +16,8 @@ Dependências:
 
 [Eslint](https://eslint.org/docs/latest/)
 
+[Husky](https://www.npmjs.com/package/husky)
+
 ## Rodando o projeto
 
 Após clonar o repositório rode `npm install` para instalar todas as dependencias desse projeto. 
