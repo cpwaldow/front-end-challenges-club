@@ -15,3 +15,19 @@ Dependências:
 [Cypress](https://docs.cypress.io/guides/overview/why-cypress)
 
 [Eslint](https://eslint.org/docs/latest/)
+
+## Rodando o projeto
+
+Após clonar o repositório rode `npm install` para instalar todas as dependencias desse projeto. 
+
+`npm start` para subir um servidor e visualizar o projeto.
+
+`npm test` roda os testes.
+
+`npm run lint` roda o eslint.
+
+## Commits
+
+Uma das dependências desse projeto é [Commit Msg Linter](https://github.com/legend80s/commit-msg-linter), caso tente fazer um commit fora do padrão, retornará erro e mostrará no terminal o que está faltando.
+
+[Formato recomendado para mensagem de commit](https://github.com/legend80s/commit-msg-linter#recommended-commit-message-format)
