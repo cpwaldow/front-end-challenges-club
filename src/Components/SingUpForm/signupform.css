@@ -1,0 +1,50 @@
+:root {
+  --color-primary: #4c2982;
+  --color-secondary: #f9d170;
+  --color-bg: #f9f7f3;
+  --color-text: #252525;
+  --color-light: #f3f3f3;
+  --color-success: #067973;
+  --color-success-bg: #f5fffe;
+  --color-error: #b71540;
+  --color-error-bg: #fdeff3;
+}
+
+body {
+  background-color: #f9f7f3;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.container-input-btn {
+  display: flex;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h2 , label {
+  color: #4c2982;
+  font-weight: bolder;
+}
+
+input {
+  margin-top: 10px;
+  padding: 8px;
+  width: 230px;
+}
+
+button {
+  margin-top: 10px;
+  width: 50px;
+  height: 40px;
+  font-size: 30px;
+  background-color: #f9d170;
+  color: #4c2982;
+}
