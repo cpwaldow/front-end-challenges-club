@@ -56,6 +56,7 @@ const Home = () => {
         <Perfil src={cadu} alt='Cadu' />
       </Container>
       <ContainerLinks>
+        <Title>Desafios Front-end</Title>
         <Anchor to='/emailsignup' color='#fff'>
           Challenge: Email sign-up form
         </Anchor>
