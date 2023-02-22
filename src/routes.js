@@ -9,6 +9,7 @@ function AppRoutes() {
         <Menu />
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/emailsignup' element={<h1>emailsignup</h1>} />
         </Routes>
       </BrowserRouter>
     </div>
