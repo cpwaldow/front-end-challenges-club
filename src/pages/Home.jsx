@@ -5,7 +5,8 @@ import cadu from '../assets/cadu-happy.jpeg';
 const Title = styled.h1`
   text-align: center;
   line-height: 40px;
-  margin-bottom: 50px;
+  margin: 50px 0;
+  color: ${({ color }) => (color ? color : '#000')};
 `;
 
 const Text = styled.p`
@@ -31,10 +32,18 @@ const Perfil = styled.img`
 const Anchor = styled(Link)`
   text-decoration: underline;
   color: ${({ color }) => (color ? color : '#000')};
+  margin-bottom: ${({ mb }) => (mb ? mb : '')};
 `;
 
 const ContainerLinks = styled.section`
   background-color: var(--azul-medio);
+`;
+
+const LinksContent = styled.section`
+  display: flex;
+  flex-direction: column;
+  widt: 80%;
+  margin-left: 40px;
 `;
 
 const Home = () => {
@@ -56,10 +65,12 @@ const Home = () => {
         <Perfil src={cadu} alt='Cadu' />
       </Container>
       <ContainerLinks>
-        <Title>Desafios Front-end</Title>
-        <Anchor to='/emailsignup' color='#fff'>
-          Challenge: Email sign-up form
-        </Anchor>
+        <Title color='#fff'>Desafios Front-end</Title>
+        <LinksContent>
+          <Anchor to='/emailsignup' color='#fff' mb='20px'>
+            Challenge: Email sign-up form
+          </Anchor>
+        </LinksContent>
       </ContainerLinks>
     </main>
   );
