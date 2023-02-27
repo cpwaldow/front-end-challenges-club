@@ -39,7 +39,7 @@ const ContainerLinks = styled.section`
   background-color: var(--azul-medio);
 `;
 
-const LinksContent = styled.section`
+const LinksContent = styled.nav`
   display: flex;
   flex-direction: column;
   widt: 80%;
