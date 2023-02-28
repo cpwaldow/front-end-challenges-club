@@ -13,6 +13,7 @@ const Anchor = styled(Link)`
   font-size: 1.5rem;
   text-decoration: underline;
   color: var(--branco);
+  margin: 0 20px;
 `;
 
 const Menu = () => {
@@ -20,6 +21,7 @@ const Menu = () => {
     <header>
       <Nav>
         <Anchor to='/'>Home</Anchor>
+        <Anchor to='/pokemon'>Pokemon</Anchor>
       </Nav>
     </header>
   );
